@@ -30,7 +30,8 @@ function startGame() {
 function shareOnTwitter() {
   const score = document.getElementById('moves')?.innerText || 'an amazing score';
   const time = document.getElementById('time')?.innerText || 'unknown time';
-  const tweetText = `I escaped the SPIKY MAZE in ${score} moves! under 🕒 ${time}. Think you can beat my time? find out here at https://spikynads-maze.netlify.app/ #SPIKYNADS @Spikynads #GameScore`;
+  const tweetText = `I escaped the SPIKY MAZE in ${score} moves! under 🕒 ${time}. Think you can beat my time? find out here at https://steddy-teddy.vercel.app/  @steadyteddys
+ `;
   const twitterShareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
 
   window.open(twitterShareUrl, '_blank');
